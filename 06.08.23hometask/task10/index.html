@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Book Survey</h1>
+    <form action="#">
+        <fieldset>
+            <legend>Student Information</legend>
+            <label for="name">Name:
+                <input type="text" name="name" id="name">
+            </label><br><br>
+            <label for="email">Email:
+                <input type="email" name="email" id="email">
+            </label>
+        </fieldset><br>
+        <fieldset>
+            <legend>Select your gender:</legend>
+            <input type="radio" name="gender" id="gender">
+            <label for="gender">Male</label>
+            <input type="radio" name="gender" id="gender">
+            <label for="gender">Female</label>
+        </fieldset><br>
+        <fieldset>
+            <legend>Select your favorite type(s) of books:</legend>
+            <table>
+                <tr>
+                    <td><input type="checkbox" name="books" id="books">
+                        <label for="books">Science</label> </td>
+                    <td><input type="checkbox" name="books" id="books">
+                        <label for="books">Fiction</label></td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox" name="books" id="books">
+                        <label for="books">Arts</label></td>
+                    <td><input type="checkbox" name="books" id="books">
+                        <label for="books">Social studies</label></td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox" name="books" id="books">
+                        <label for="books">Non-fiction</label></td>
+                    <td><input type="checkbox" name="books" id="books">
+                        <label for="books">Other</label></td>
+                </tr>
+            </table>
+        </fieldset><br>
+        <fieldset>
+            <legend>Select the locations you purchase books:</legend>
+                <optgroup>
+                    <option value="At book stores">At book stores</option>
+                    <option value="On the internet">On the internet</option>
+                    <option value="Yard sale">Yard sale</option>
+                </optgroup>
+        </fieldset><br>
+        <fieldset>
+            <legend>What role does reading books play in your life?</legend>
+            <textarea name="message" id="message" cols="45" rows="5"></textarea>
+        </fieldset><br>
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+    </form>
+</body>
+
+</html>

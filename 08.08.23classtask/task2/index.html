@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="#">
+        <fieldset>
+            <legend>Login</legend>
+            <label for="uname">Username* <br>
+            <input type="text" name="uname" id="uname" required></label><br>
+            <label for="password">Password* <br>
+            <input type="password" name="password" id="password"></label>
+        </fieldset>
+        <fieldset>
+            <legend>Gender*</legend>
+            <input type="radio" name="gender" id="gender" required>
+            <label for="gender">Male</label>            
+            <input type="radio" name="gender" id="gender" required>
+            <label for="gender">Female</label>
+        </fieldset>
+        <fieldset>
+            <legend>Programming Skill</legend>
+            <input type="checkbox" name="p-skill" id="p-skill">
+            <label for="p-skill">Java</label>
+            <input type="checkbox" name="p-skill" id="p-skill" checked>
+            <label for="p-skill">C++</label>
+            <input type="checkbox" name="p-skill" id="p-skill">
+            <label for="p-skill">C#</label>
+        </fieldset>
+        <fieldset>
+            <legend>Fruit</legend>
+            <label for="fruit">Choose a fruit:
+                <select name="fruit" id="fruit">
+                    <option value="banana">Banana</option>
+                    <option value="apple">Apple</option>
+                    <option value="grape">Grape</option>
+                </select>
+            </label>
+        </fieldset>
+        <textarea name="message" id="message" cols="50" rows="10" placeholder="Enter your comment here"></textarea><br>
+        <button type="submit">SEND</button>
+        <button type="reset">RESET</button>
+    </form>
+</body>
+</html>

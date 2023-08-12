@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table,
+        th,
+        td {
+            border: 1px solid black;
+            /* border-collapse: collapse; */
+        }
+    </style>
+</head>
+
+<body>
+    <h1>About</h1>
+    <p>It can be intimidating for women to learn and ask questions when they are in an <b>extreme minority.</b> While  open and welcoming, today's budding developer community is up to <b>91% male.</b> If we can empower more females with the confidence in their technological capabilities <i>we can begin to change this landscape.</i></p>
+    <h1>Our Locations</h1>
+    <ul>
+        <li>USA
+            <ul>
+                <li><a href="#">New York</a></li>
+                <li><a href="#">Columbus</a></li>
+                <li><a href="#">Austin</a></li>
+                <li><a href="#">Philly</a></li>
+            </ul>
+        </li>
+        <li>World
+            <ul>
+                <li><a href="#">Ottawa</a></li>
+                <li><a href="#">Sydney</a></li>
+            </ul>
+        </li>
+    </ul>
+    <h1>Upcoming Classes</h1>
+    <table>
+        <tr>
+            <th>Location</th>
+            <th>Topic</th>
+        </tr>
+        <tr>
+            <td>New York</td>
+            <td>JavaScript & jQuery</td>
+        </tr>
+        <tr>
+            <td>San Fracisco</td>
+            <td>HTML & CSS</td>
+        </tr>
+    </table>
+    <h1>Sign Up!</h1>
+    <form action="#">
+        <label for="name">Name:
+            <input type="text" name="name" id="name">
+        </label><br>
+        <label for="email">Email:
+            <input type="email" name="email" id="email">
+        </label><br>
+        <label for="location">Location:
+            <select name="location" id="location">
+                <option value="San Francisco">San Francisco</option>
+                <option value="New York">New York</option>
+            </select>
+        </label><br>
+        <fieldset>
+            <legend>Gender:</legend>
+            <label for="gender">Female</label>
+            <input type="radio" name="gender" id="gender">
+            <label for="gender">Male</label>
+            <input type="radio" name="gender" id="gender">
+        </fieldset><br>
+        <label for="message">Experience: <br>
+            <textarea name="message" id="message" cols="20" rows="3"></textarea>
+        </label><br>
+        <button type="submit">Sign Up</button>
+    </form><br><br>
+    <a href="#">Twitter</a><span> |</span>
+    <a href="#">Facebook</a><span> |</span>
+    <a href="#">Flickr</a>
+</body>
+
+</html>

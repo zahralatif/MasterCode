@@ -1,0 +1,11 @@
+#border-1 {
+    border: 5px dotted blue;
+}
+
+#border-2 {
+    border: 5px dashed yellow;
+}
+
+#border-3 {
+    border: 5px solid yellowgreen;
+}

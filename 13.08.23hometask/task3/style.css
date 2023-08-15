@@ -1,0 +1,11 @@
+#solid {
+    border: 5px solid red;
+}
+
+#dotted {
+    border: 5px dotted red;
+}
+
+#dashed {
+    border: 5px dashed red;
+}

@@ -1,0 +1,44 @@
+p {
+    color: red;
+    text-align: center;
+}
+
+#none {
+    border-style: none;
+}
+
+#dotted {
+    border: 3px dotted blue;
+}
+
+#dashed {
+    border: 3px dashed blue;
+}
+
+#solid {
+    border: 3px solid blue;
+}
+
+#double {
+    border: 3px double blue;
+}
+
+#groove {
+    border: 3px groove blue;
+}
+
+#ridge {
+    border: 3px ridge blue;
+}
+
+#inset {
+    border: 3px inset blue;
+}
+
+#outset {
+    border: 3px outset blue;
+}
+
+#hidden {
+    border-style: hidden;
+}

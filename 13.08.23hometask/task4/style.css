@@ -1,0 +1,15 @@
+body {
+    background-color: rgb(178, 171, 232);
+}
+
+.browncolor {
+    color: brown;
+}
+
+.bluecolor{
+    color: blue;
+}
+
+#container{
+    border: 2px dashed black;
+}

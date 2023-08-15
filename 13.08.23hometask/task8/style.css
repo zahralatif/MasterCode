@@ -1,0 +1,35 @@
+#none {
+    border-style: none;
+}
+
+#dotted {
+    border: 2px dotted black;
+}
+
+#dashed {
+    border: 2px dashed black;
+}
+
+#solid {
+    border: 2px solid black;
+}
+
+#double {
+    border: 2px double black;
+}
+
+#groove {
+    border: 5px groove greenyellow;
+}
+
+#ridge {
+    border: 5px ridge greenyellow;
+}
+
+#inset {
+    border: 5px inset greenyellow;
+}
+
+#outset {
+    border: 5px outset greenyellow;
+}

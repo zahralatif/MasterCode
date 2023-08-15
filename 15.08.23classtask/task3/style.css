@@ -1,0 +1,43 @@
+.header {
+    background-color: rgb(52, 107, 208);
+    color: white;
+    padding: 10px 30px;
+}
+
+h1 {
+    font-family: 'Caprasimo', cursive;
+    font-size: 25px;
+}
+
+.greensection {
+    background-color: rgb(52, 170, 95);
+    border: 5px solid rgb(14, 152, 48);
+    margin: 20px 300px;
+    padding: 20px;
+}
+
+#italictxt {
+    font-style: italic;
+    text-align: right;
+}
+
+.redsection {
+    background-color: red;
+    border: 5px solid rgb(180, 1, 1);
+    border-radius: 10px;
+    margin: 20px 500px;
+    padding: 20px;
+    text-align: center;
+    color:white;
+}
+
+a{
+    color: white;
+    font-style: italic;
+}
+
+.darkbluesection{
+    background-color: rgb(57, 53, 82);
+    color:white;
+    padding: 40px 30px;
+}

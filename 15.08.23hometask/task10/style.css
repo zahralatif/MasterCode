@@ -1,0 +1,14 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+h1{
+    background-color: coral;
+    color: blueviolet;
+    text-align: center;
+    padding: 50px;
+    margin: 20px;
+    border: 3px solid red;
+}

@@ -1,0 +1,30 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.container1 {
+    background-color: darksalmon;
+    width: 70%;
+}
+
+.container2 {
+    background-color: darksalmon;
+    width: 70%;
+    margin: 20px;
+    padding: 10px;
+    border: 7px solid brown;
+}
+
+.container3 {
+    background-color: darksalmon;
+    width: 70%;
+    margin: 60px;
+    padding: 0px 50px 50px 50px;
+    text-align: center;
+    border-top: 2px solid black;
+    border-right: 4px dashed brown;
+    border-bottom: 5px double yellow;
+    border-left: 10px solid black;
+}

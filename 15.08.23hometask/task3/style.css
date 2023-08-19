@@ -1,0 +1,11 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+div{
+    padding: 10px 50px 75px 200px;
+    background-color: red;
+    border: 3px solid blue;
+}

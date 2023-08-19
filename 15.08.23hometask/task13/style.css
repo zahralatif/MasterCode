@@ -1,0 +1,18 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+div{
+    border-top: 10px solid yellowgreen;
+    padding: 5% 20%;
+}
+
+a{
+    color: yellowgreen;
+}
+
+h1{
+    font-size: 70px;
+}

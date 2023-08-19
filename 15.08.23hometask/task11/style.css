@@ -1,0 +1,24 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.container1{
+    background-color: lightpink;
+    border: 3px solid blue;
+    margin: 2%;
+    padding: 30px;    
+}
+
+.container2{
+    background-color: lightblue;
+    border: 3px solid blueviolet;
+}
+
+.container3{
+    background-color: blanchedalmond;
+    border: 3px solid brown;
+    padding: 20px;
+    margin: 5% 2% 0% 50%;
+}

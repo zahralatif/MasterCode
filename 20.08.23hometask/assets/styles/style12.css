@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.example {
+    width: 800px;
+    margin: 50px 0;
+    background-color: #D6E9FE;
+    display: inline-block;
+}
+
+.item {
+    width: 200px;
+    height: 200px;
+    background-color: bisque;
+    display: inline-block;
+    margin: 0 30px;
+}
+
+.item-relative {
+    position: relative;
+    bottom: 30px;
+    right: 30px;
+    background-color: aqua;
+}
+
+.item-absolute {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: blueviolet;
+}
+
+.item-fixed {
+    position: fixed;
+    background-color: red;
+}
+
+.right{
+    float: right;
+}
+.container {
+    margin: 30px 350px;
+}

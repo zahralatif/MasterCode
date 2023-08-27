@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header,
+footer {
+    background-color: blue;
+    height: 70px;
+}
+
+.container {
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+main {
+    background-color: yellowgreen;
+    height: 200px;
+    width: 50%;
+    display: inline-block;
+    margin-top: 5px;
+}
+
+aside {
+    background-color: blueviolet;
+    height: 200px;
+    width: 40%;
+    display: inline-block;
+    margin-top: 5px;
+}
+
+.twin {
+    background-color: coral;
+    height: 200px;
+    width: 45%;
+    display: inline-block;
+}

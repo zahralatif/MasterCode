@@ -1,0 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.sticky{
+    position: sticky;
+    background-color: yellowgreen;
+    top: 0;
+    height: 50px;
+    padding: 10px;
+    text-align: center;
+}

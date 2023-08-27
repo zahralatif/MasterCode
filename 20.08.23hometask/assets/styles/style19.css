@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section {
+    width: 48%;
+    float: left;
+    margin: 5px;
+}
+
+.fixedcard {
+    position: fixed;
+    background-color: palevioletred;
+    height: 50px;
+    width: 48%;
+    padding: 10px;
+    text-align: center;
+}
+
+.stickycard {
+    position: fixed;
+    background-color: violet;
+    height: 50px;
+    width: 48%;
+    padding: 10px;
+    text-align: center;
+}

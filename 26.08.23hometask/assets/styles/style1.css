@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 4px;
+}
+
+header {
+    color: #109E97;
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    font-size: 49px;
+    font-weight: 400;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+}
+
+.name {
+    font-size: 23px;
+}
+
+.greentxt {
+    color: #008000;
+    font-size: 25px;
+    display: inline;
+}
+
+.redtxt {
+    color: #F00;
+    font-size: 15px;
+    display: inline;
+}
+
+.incognito {
+    width: 200px;
+    height: 302px;
+    display: block;
+    margin-top: 18px;
+}
+
+.bookinfo {
+    height: 256px;
+    background-color: #000;
+}
+
+.bookinfo p {
+    color: #FFF;
+    text-align: right;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    letter-spacing: 2px;
+}

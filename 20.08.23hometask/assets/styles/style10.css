@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: gray;
+}
+
+section {
+    background-color: yellow;
+    margin: 3px;
+}
+
+div {
+    display: inline-block;
+    padding: 50px 50px 50px 0;
+}
+
+.box1 {
+    width: 60%;
+float: left;
+}
+
+.box2 {
+    width: 30%;
+}
+

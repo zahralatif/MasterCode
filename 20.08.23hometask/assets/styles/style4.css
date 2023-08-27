@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: white;
+}
+
+header {
+    background-color: aqua;
+    height: 70px;
+}
+
+aside {
+    width: 20%;
+    height: 200px;
+    float: left;
+}
+
+main {
+    width: 60%;
+    height: 200px;
+    float: left;
+}
+
+.left {
+    background-color: red;
+}
+
+main {
+    background-color: yellowgreen;
+}
+
+.right {
+    background-color: yellow;
+}
+
+footer {
+    background-color: blueviolet;
+    height: 200px;
+    clear: both;
+}
+
+footer div {
+    background-color: deeppink;
+    height: 100px;
+    width: 200px;
+    margin: 50px;
+    display: inline-block;
+}

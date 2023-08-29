@@ -2,14 +2,18 @@ body {
     background-color: rgb(178, 171, 232);
 }
 
+ul {
+    list-style-type: none;
+}
+
 .browncolor {
     color: brown;
 }
 
-.bluecolor{
+.bluecolor {
     color: blue;
 }
 
-#container{
+#container {
     border: 2px dashed black;
 }

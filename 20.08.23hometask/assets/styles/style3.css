@@ -9,7 +9,8 @@ body {
     color: white;
 }
 
-header, footer {
+header,
+footer {
     background-color: darkturquoise;
     padding: 1% 2% 2% 4%;
     height: 50px;
@@ -31,8 +32,10 @@ article {
     display: inline-block;
     margin: 10px 0 10px 5px;
 }
+
 img {
     background-color: burlywood;
     width: 200px;
     height: 200px;
+    margin: 270px 25px;
 }

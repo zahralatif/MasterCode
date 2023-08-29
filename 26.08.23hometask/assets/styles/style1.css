@@ -7,7 +7,7 @@
 }
 
 body {
-    margin: 4px;
+    margin: 8px;
 }
 
 header {
@@ -22,8 +22,14 @@ p {
     font-family: 'Roboto', sans-serif;
 }
 
+.hr {
+    border: 1px solid #000;
+    height: 2px;
+}
+
 .name {
     font-size: 23px;
+    padding: 20px 0;
 }
 
 .greentxt {
@@ -46,8 +52,21 @@ p {
 }
 
 .bookinfo {
-    height: 256px;
     background-color: #000;
+    margin: 8px 0;
+}
+
+.bookinfo h3 {
+    color: #FFF;
+    text-align: right;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+    padding-top: 44px;
+    padding-bottom: 21px;
 }
 
 .bookinfo p {
@@ -56,4 +75,135 @@ p {
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
     letter-spacing: 2px;
+    padding: 0 0 42px 43px;
+}
+
+table,
+th,
+td {
+    border: 1px solid #808080;
+}
+
+table {
+    width: 100%;
+}
+
+table th {
+    color: #000;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+table td {
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.xususiyyet h6 {
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+    margin: 21px 8px;
+}
+
+.xususiyyet {
+    margin-bottom: 47px;
+}
+
+.bookform {
+    display: flex;
+    justify-content: space-between;
+}
+
+.formimg {
+    padding-top: 66px;
+}
+
+.formpart h1 {
+    color: #000;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+    padding-top: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 18px auto;
+}
+
+.formpart form label,
+.formpart p {
+    color: #000;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.formpart form input,
+.formpart form textarea {
+    border: 2px solid #767676;
+    background-color: #FFF;
+}
+
+.formpart form select {
+    border: 1px solid #767676;
+    background-color: #DDD;
+}
+
+.formpart form button {
+    border: 2px solid #767676;
+    background: #109E97;
+    width: 120px;
+    height: 50px;
+    margin: 22px auto;
+}
+
+.listpart ul li a {
+    text-decoration: none;
+    color: #00E;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.listpart {
+    margin-bottom: 44px;
+}
+
+footer {
+    background-color: #109E97;
+    height: 86px;
+    margin: 8px auto;
+    color: #FFF;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-top: 34px;
 }

@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: relative;
+    left: 350px;
+    top: 350px;
+    animation-name: move;
+    animation-duration: 4s;
+}
+
+@keyframes move {
+    0% {
+        left: 350px;
+        top: 350px;
+    }
+
+    25% {
+        left: 0px;
+        top: 350px;
+    }
+
+    50% {
+        left: 0px;
+        top: 0px;
+    }
+
+    75% {
+        left: 350px;
+        top: 0px;
+    }
+
+    100% {
+        left: 350px;
+        top: 350px;
+    }
+}

@@ -1,0 +1,36 @@
+ol li::marker {
+    animation-name: list;
+    animation-duration: 0.5s;
+}
+
+ol li:nth-child(1)::marker {
+    animation-delay: 0;
+}
+
+ol li:nth-child(2)::marker {
+    animation-delay: 0.5s;
+}
+
+ol li:nth-child(3)::marker {
+    animation-delay: 1.0s;
+}
+
+ol li:nth-child(4)::marker {
+    animation-delay: 1.5s;
+}
+
+ol li:nth-child(5)::marker {
+    animation-delay: 2.0s;
+}
+
+@keyframes list {
+
+    from {
+        font-size: 12px;
+    }
+
+    to {
+        font-size: 24px;
+        color: green;
+    }
+}

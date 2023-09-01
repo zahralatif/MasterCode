@@ -1,0 +1,36 @@
+.shaky {
+    margin: 50px;
+    width: 250px;
+    height: 70px;
+    background: white;
+    font-size: 30px;
+    transform: skewX(-15deg);
+}
+
+.shaky:hover {
+    animation: shake 0.4s ease-out;
+    border: 2px solid green;
+    color: green;
+}
+
+@keyframes shake {
+    0% {
+        transform: skewX(-15deg);
+    }
+
+    25% {
+        transform: skewX(15deg);
+    }
+
+    50% {
+        transform: skewX(-15deg);
+    }
+
+    75% {
+        transform: skewX(15deg);
+    }
+
+    100% {
+        transform: skewX(-10deg);
+    }
+}

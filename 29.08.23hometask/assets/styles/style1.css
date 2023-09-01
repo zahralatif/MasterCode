@@ -1,0 +1,62 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+.container {
+    width: 100px;
+    height: 100px;
+    margin: 50px auto;
+}
+
+.box {
+    width: 70px;
+    height: 70px;
+    position: absolute;
+}
+
+.red {
+    background-color: red;
+    animation: rotateRed 6s linear infinite;
+}
+
+.green {
+    background-color: green;
+    animation: rotateGreen 5s linear infinite;
+}
+
+.blue {
+    background-color: blue;
+    animation: rotateBlue 4s linear infinite;
+}
+
+@keyframes rotateRed {
+    0% {
+        transform: rotate(0deg) scale(1.5);
+    }
+
+    100% {
+        transform: rotate(360deg) scale(1.5);
+    }
+}
+
+@keyframes rotateGreen {
+    0% {
+        transform: rotate(0deg) scale(1.0);
+    }
+
+    100% {
+        transform: rotate(-360deg) scale(1.0);
+    }
+}
+
+@keyframes rotateBlue {
+    0% {
+        transform: rotate(0deg) scale(0.5);
+    }
+
+    100% {
+        transform: rotate(360deg) scale(0.5);
+    }
+}

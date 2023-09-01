@@ -1,0 +1,85 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+div {
+    position: relative;
+    height: 200px;
+    width: 200px;
+    margin: auto;
+}
+
+div .content {
+    position: absolute;
+    text-align: center;
+    width: 200px;
+    top: 50%;
+    transform: translate(0 -50%);
+    font-size: 24pt;
+}
+
+div .topleft {
+    display: inline-block;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 0px;
+    left: 0px;
+    background: red;
+    transform-origin: top left;
+}
+
+div .topright {
+    display: inline-block;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 0px;
+    left: 100px;
+    background: yellow;
+    transform-origin: top right;
+}
+
+div .bottomleft {
+    display: inline-block;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 0px;
+    top: 100px;
+    background: blue;
+    transform-origin: bottom left;
+}
+
+div .bottomright {
+    display: inline-block;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 100px;
+    top: 100px;
+    background: green;
+    transform-origin: bottom right;
+}
+
+div:hover .topleft {
+    transform: rotate(90deg);
+    transition: transform 1s ease;
+}
+
+div:hover .topright {
+    transform: rotate(-90deg);
+    transition: transform 1s ease;
+}
+
+div:hover .bottomleft {
+    transform: rotate(-90deg);
+    transition: transform 1s ease;
+}
+
+div:hover .bottomright {
+    transform: rotate(90deg);
+    transition: transform 1s ease;
+}

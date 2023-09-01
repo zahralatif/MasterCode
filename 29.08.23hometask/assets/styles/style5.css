@@ -1,0 +1,59 @@
+@keyframes normal-animation {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(100px);
+    }
+}
+
+@keyframes reverse-animation {
+    from {
+        transform: translateX(100px);
+    }
+
+    to {
+        transform: translateX(0);
+    }
+}
+
+@keyframes alternate-animation {
+
+    0%,
+    100% {
+        transform: translateX(0);
+    }
+
+    50% {
+        transform: translateX(100px);
+    }
+}
+
+@keyframes a-reverse-animation {
+
+    0%,
+    100% {
+        transform: translateX(100px);
+    }
+
+    50% {
+        transform: translateX(0);
+    }
+}
+
+.normal {
+    animation: normal-animation 2s linear infinite;
+}
+
+.reverse {
+    animation: reverse-animation 2s linear infinite;
+}
+
+.alternate {
+    animation: alternate-animation 2s linear infinite;
+}
+
+.a-reverse {
+    animation: a-reverse-animation 2s linear infinite;
+}

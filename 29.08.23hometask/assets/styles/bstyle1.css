@@ -1,0 +1,66 @@
+.container {
+    width: 100px;
+    height: 100px;
+    margin: 50px auto;
+}
+
+.box {
+    width: 70px;
+    height: 70px;
+    position: absolute;
+}
+
+.red {
+    background-color: red;
+    transform: scale(1.5);
+}
+
+.green {
+    background-color: green;
+    transform: scale(1.0);
+}
+
+.blue {
+    background-color: blue;
+    transform: scale(0.5);
+}
+
+@keyframes rotateRed {
+    0% {
+        transform: rotate(0deg) scale(1.5);
+    }
+
+    100% {
+        transform: rotate(360deg) scale(1.5);
+    }
+}
+
+@keyframes rotateGreen {
+    0% {
+        transform: rotate(0deg) scale(1.0);
+    }
+
+    100% {
+        transform: rotate(-360deg) scale(1.0);
+    }
+}
+
+@keyframes rotateBlue {
+    0% {
+        transform: rotate(0deg) scale(0.5);
+    }
+
+    100% {
+        transform: rotate(360deg) scale(0.5);
+    }
+}
+
+button {
+    display: block;
+    margin: 10px auto;
+    padding: 10px 20px;
+    background-color: #858383;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}

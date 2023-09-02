@@ -1,0 +1,71 @@
+.load {
+    width: 500px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.loadbar {
+    background-color: aquamarine;
+    height: 100%;
+    width: 20px;
+    animation: bars 1s infinite alternate ease-in-out backwards;
+}
+
+.loadbar:nth-child(1) {
+    animation-delay: 0.2s;
+}
+
+.loadbar:nth-child(2) {
+    animation-delay: 0.4s;
+}
+
+.loadbar:nth-child(3) {
+    animation-delay: 0.6s;
+}
+
+.loadbar:nth-child(4) {
+    animation-delay: 0.8s;
+}
+
+.loadbar:nth-child(5) {
+    animation-delay: 1s;
+}
+
+.loadbar2 {
+    background-color: blue;
+    height: 100%;
+    width: 20px;
+    animation: bars 1s infinite alternate-reverse;
+}
+
+.loadbar2:nth-child(1) {
+    animation-delay: 0.2s;
+}
+
+.loadbar2:nth-child(2) {
+    animation-delay: 0.4s;
+}
+
+.loadbar2:nth-child(3) {
+    animation-delay: 0.6s;
+}
+
+.loadbar2:nth-child(4) {
+    animation-delay: 0.8s;
+}
+
+.loadbar2:nth-child(5) {
+    animation-delay: 1s;
+}
+
+@keyframes bars {
+    0% {
+        transform: scaleY(0.5);
+    }
+
+    100% {
+        transform: scaleY(1.0);
+    }
+}

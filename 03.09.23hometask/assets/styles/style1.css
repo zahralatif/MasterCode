@@ -1,0 +1,55 @@
+.container {
+    display: grid;
+    gap: 10px;
+    height: 50vh;
+    grid-template-areas:
+        "item1 item2 item2 item3"
+        "item1 item4 item5 item6"
+        "item1 item7 item8 item6";
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box:nth-child(1) {
+    grid-area: item1;
+    background-color: rgb(8, 186, 8);
+}
+
+.box:nth-child(2) {
+    grid-area: item2;
+    background-color: rgb(8, 186, 8);
+}
+
+.box:nth-child(3) {
+    grid-area: item3;
+    background-color: red;
+}
+
+.box:nth-child(4) {
+    grid-area: item4;
+    background-color: orange;
+}
+
+.box:nth-child(5) {
+    grid-area: item5;
+    background-color: red;
+}
+
+.box:nth-child(6) {
+    grid-area: item6;
+    background-color: rgb(8, 186, 8);
+}
+
+.box:nth-child(7) {
+    grid-area: item7;
+    background-color: red;
+}
+
+.box:nth-child(8) {
+    grid-area: item8;
+    background-color: orange;
+}

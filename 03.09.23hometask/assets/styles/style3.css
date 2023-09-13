@@ -1,0 +1,52 @@
+.container {
+    height: 100vh;
+    display: grid;
+    grid-gap: .5rem .5rem;
+}
+
+.box {
+    color: white;
+    font-size: 3rem;
+    text-align: center;
+    padding: 4rem;
+}
+
+.box-1 {
+    background: rgb(0, 191, 255);
+    grid-row: 1;
+    grid-column: 1/4;
+}
+
+.box-2 {
+    background: rgb(255, 68, 0);
+    grid-row: 2/4;
+    grid-column: 1/3;
+}
+
+.box-3 {
+    background: rgb(59, 108, 255);
+}
+
+.box-4 {
+    background: rgb(255, 217, 0);
+}
+
+.box-5 {
+    background: rgb(124, 43, 200);
+}
+
+.box-6 {
+    background: rgb(35, 216, 35);
+}
+
+.box-7 {
+    background: rgb(251, 121, 73);
+}
+
+.box-8 {
+    background: rgb(33, 192, 184);
+}
+
+.box-9 {
+    background: rgb(138, 1, 1);
+}

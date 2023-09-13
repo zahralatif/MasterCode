@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 9rem 9rem 9rem;
+    grid-gap: 2rem;
+    background-color: #fff;
+    color: #444;
+    margin: 10rem;
+}
+
+.box {
+    background-color: #444;
+    color: #fff;
+    border-radius: .5rem;
+    padding: 2rem;
+    font-size: 200%;
+}

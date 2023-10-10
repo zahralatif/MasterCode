@@ -162,9 +162,9 @@ function mostFrequentWord(text) {
  */
 
 function addStrings(num1, num2) {
-
+  return +num1 + +num2;
 }
 
-// console.log(addStrings("1", "2")); // '3'
-// console.log(addStrings("11", "123")); // '134'
-// console.log(addStrings("456", "77")); // '533'
+console.log(addStrings("1", "2")); // '3'
+console.log(addStrings("11", "123")); // '134'
+console.log(addStrings("456", "77")); // '533'

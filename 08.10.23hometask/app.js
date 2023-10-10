@@ -188,13 +188,116 @@ function calculatePower(a, n) {
 //? did not get task
 
 //! 8818
-//? couldn't
+//? couldn't -- help from browser
+
+function countDigitInt(n) {
+    n = parseInt(n);
+
+    if (n > 0) {
+        let lower = 1;
+        let upper = 9;
+
+        for (let i = 1; i < n; i++) {
+            lower *= 10;
+            upper = upper * 10 + 9;
+        }
+        const count = upper - lower + 1;
+        return count;
+    } else {
+        console.log("Invalid input.");
+    }
+}
 
 //! 8819
-//? couldn't
+//? couldn't -- help from browser
+
+function countOddDigitInt(n) {
+    n = parseInt(n);
+
+    if (n > 0) {
+        let lower = 1;
+        let upper = 9;
+
+        for (let i = 2; i <= n; i++) {
+            lower *= 10;
+            upper = (upper * 10) + 9;
+        }
+        const count = Math.floor((upper - lower + 1) / 2);
+        return count;
+    } else {
+        console.log("Invalid input.");
+    }
+}
 
 //! 8820 - same as 8818
 
 //! 8821 - same as 8819
 
-//! 8822 
+//! 8822 (help from browser include section)
+
+function noSixDigits(n) {
+    n = parseInt(n);
+
+    if (n > 0) {
+        let count = 0;
+        let lower = 1;
+        let upper = 9;
+
+        for (let i = 2; i <= n; i++) {
+            lower *= 10;
+            upper = (upper * 10) + 9;
+        }
+
+        for (let num = lower; num <= upper; num++) {
+            if (!String(num).includes("6")) {
+                count++;
+            }
+        }
+        return count;
+    }
+    else {
+        console.log("invalid input.")
+    }
+}
+
+//! 8823
+
+function onlySevenDigits(n) {
+    n = parseInt(n);
+
+    if (n > 0) {
+        let count = 0;
+        let lower = 1;
+        let upper = 9;
+
+        for (let i = 2; i <= n; i++) {
+            lower *= 10;
+            upper = (upper * 10) + 9;
+        }
+
+        for (let num = lower; num <= upper; num++) {
+            if (String(num).includes("7")) {
+                count++;
+            }
+        }
+        return count;
+    }
+    else {
+        console.log("invalid input.")
+    }
+}
+
+//! 8824
+
+function findInt(previous, next) {
+    previous = parseInt(previous);
+    next = parseInt(next);
+
+    if (previous < next) {
+        const n = previous + 1;
+        return n;
+    } else if (next < previous) {
+        const n = next + 1;
+        return n;
+    }
+}
